@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .no-1 {
+            width: 50%;
+            height: 400px;
+            background-color: aqua;
+        }
+
+        .no-2 {
+            width: 50%;
+            height: 300px;
+            background-color: red;
+        }
+
+        .no-3 {
+            width: 50%;
+            height: 200px;
+            background-color: tomato;
+        }
+
+        .no-4 {
+            width: 50%;
+            height: 200px;
+            background-color: wheat;
+        }
+        .img{
+            
+            width: 100%;
+            
+        }
+        .taiger{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .taiger img{
+            width: 50%;
+            height: 200px;
+        }
+
+        @media screen and (max-width:576px) {
+            .div {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .no-1 {
+                width: 50%;
+                height: 400px;
+                background-color: aqua;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            }
+            img{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div>
+        <div class="no-1">
+            <h1>no-1</h1>
+        </div>
+        <div class="no-2">
+            <h1>no-2</h1>
+        </div>
+        <div class="no-3">
+            <h1> no-3</h1>
+        </div>
+        <div class="no-4">
+            <h1>no-4</h1>
+        </div>
+    </div> -->
+
+
+    <!-- <div class="img">
+        <img src="./babu.jpg" alt="">
+    </div> -->
+    <div class="taiger">
+        <div>
+            <img src="./pexels-photo-236599.jpeg" alt="">
+            <div>
+                 <h2>the royale bangol taiger</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita amet atque et harum! Sequi rem a deserunt voluptatem impedit consequuntur nam vitae, itaque eligendi perferendis architecto harum in, nulla aspernatur?</p>
+            <div><button>not for sale</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

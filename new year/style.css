@@ -1,0 +1,143 @@
+.banner{
+    background-image: url(images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    padding: 50px 140px 120px 140px;
+    color:rgba(7, 2, 17, 0);
+    background-repeat: no-repeat;
+
+}
+.happy{
+    color: white;
+    text-align: center;
+   
+   
+ 
+}
+.happy h2{
+    font-size: 72px;
+}
+.happy h5{
+    font-size: 32px;
+}
+.off{
+    color: #FF0000;
+    font-size: 88px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.offf{
+    color: #ff0000;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second{
+   
+padding: 120px 255px 120px 260px;
+
+}
+.all{
+    font-size: 48px;
+}
+.welcome{
+    padding: 126px 550px 298px 126px;
+}
+.h2{
+    font-size: 64px;
+    color: white;
+    line-height: 88px;
+    
+}
+.dolor{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+.party{
+    display: flex;
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    padding: 140px 120px 140px 120px;
+}
+.place{
+    text-align: center;
+    padding: 100px 386px 110px 280px;
+    font-size: 32px;
+}
+.colur{
+    color:#ff0000 ;
+}
+.best{
+    font-size: 24px;
+}
+.eget{
+ 
+  flex-direction: row-reverse;
+}
+.sale{
+    font-size: 72px;
+}
+.what{
+    font-size: 24px;
+   
+}
+.babu{
+    width: 1320px;
+    height: 229px;
+  
+}
+.ipsum{
+    padding: 120px 140px 120px 140px;
+}
+.Group{
+ 
+  position: relative;
+  bottom: -600px;
+ 
+}
+.Group-2{
+   position: relative;
+   left: 700px;
+
+}
+.soping{
+    padding: 120px 140px;
+}
+.functional{
+    padding:120px 140px ;
+   
+}
+footer{
+    background-color: #070211;
+    width: 1600px;
+    height: 609px;
+   background-size: cover;
+}
+.Beach{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    padding: 120px 275px 409px 140px;
+ margin: 0 auto;
+    height: 80px;
+ 
+}
+.icons{
+    padding: 298px 632px 247px 640px;
+
+}
+footer input[type="text"]{
+    height:60px ;
+    border-radius: 10px;
+    background-color: white;
+    color: #070211;
+    padding: 30px;
+}
+footer input[type="submit"]{
+    height: 50px;
+    width: 30px;
+}
+.babu{
+    width: 20px;
+    height: 10px;
+    
+}
